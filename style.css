@@ -1,0 +1,162 @@
+.linear-gradientadi {
+    background-image: linear-gradient(to right, black, red);
+}
+
+.text-smalladi {
+    font-size: small;
+}
+
+.text-mediumadi {
+    font-size: medium;
+}
+
+.linear-gradient2adi {
+    /* background-image: url("img/new/30.png"); */
+    background-image: linear-gradient(to right, #061161, #780206);
+}
+
+.text-linear-gradient2adi {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /* text-fill-color: transparent; */
+    background-image: linear-gradient(to right, #061161, #780206);
+
+}
+
+.cardadi {
+    height: 330px;
+    width: auto;
+    justify-content: center;
+    display: block;
+    overflow: hidden;
+    /* here overflow hidden is used to restrict the image to move out from the imgadi class */
+}
+
+.cardadimenu {
+    height: 290px;
+    width: auto;
+    justify-content: center;
+    display: block;
+    overflow: hidden;
+    /* here overflow hidden is used to restrict the image to move out from the imgadi class */
+}
+
+/* imgadi is class used in card layout */
+.imgadi {
+    height: 200px;
+    width: auto;
+    justify-content: center;
+    object-fit: contain;
+}
+
+/* .imgadi:hover
+    {
+        transition: all 1.5s ease;
+        transform: scale(1.5);
+    } */
+
+/* imgadiadmin is class used in admin panel to display image of product */
+.imgadiadmin {
+    height: 2050px;
+    width: auto;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.inputsearchadi {
+    height: 5vh;
+}
+
+.inputsearchadi input {
+    width: 2vw;
+}
+
+/* input
+{
+    width: 50px;
+} */
+
+.uladi {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.overflowxadi {
+    overflow-x: hidden;
+}
+
+.ADIAX {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-monotypecorsiva {
+    font-family: monotype Corsiva;
+}
+
+.text-gabriola {
+    font-family: gabriola;
+}
+
+.blurryeffect {
+    background-image: linear-gradient(to bottom, #6e9cb4, #ffffff);
+    height: 30px;
+    width: 100%;
+}
+
+.btntertiaryadi {
+    background-color: #e9ecef !important;
+}
+
+.olivegreencolor {
+    background-color: #5c826d !important;
+}
+
+
+.tableheadercolor {
+    background-color: #e6e6e8 !important;
+}
+
+.delieveryagentimg {
+    /* background: url('img/Delievery\ Agents.jpg'); */
+    background-image: url('img/Delievery\ Agents.jpg');
+    /* background-color: #061161; */
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 300px;
+    height: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .textcenteradi {
+        text-align: center;
+    }
+
+    .justifycenteradi {
+        justify-content: center;
+    }
+
+    .btn-outline-success {
+        background-color: #198754;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textcenteradi {
+        text-align: center;
+    }
+
+    .justifycenteradi {
+        justify-content: center;
+    }
+
+    .btn-outline-success {
+        background-color: #198754;
+        color: #fff;
+    }
+}
